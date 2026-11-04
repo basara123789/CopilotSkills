@@ -28,7 +28,7 @@ Example: "Use the python-testing skill to add pytest regression tests for this F
 - [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) — MIT; 8 selected
 - [wshobson/agents](https://github.com/wshobson/agents) — MIT; 6 selected
 
-Run `python scripts/vendor_upstream.py` once on a connected machine to download those files **and their top-level LICENSE files** into `vendor/`. They are **not included** in the 12 built-in skills and should not be treated as complete until their extra references have been reviewed. If wanted, commit the downloaded `vendor/` files for storage after verifying dependencies and notices.
+**All 14 selected original `SKILL.md` files have now been copied into `vendor/` in GitHub**, alongside both upstream MIT LICENSE files and three identified linked reference documents. No local download is required. These vendored files are stored as an offline archive; they are not auto-discovered as project skills until installed under `.github/skills/` or a supported personal skills location. The optional `scripts/vendor_upstream.py` can refresh the copies later, but is not needed for initial use. Some instructions may depend on optional tooling not shipped here.
 
 The other three projects reviewed were [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) (MIT), [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) (Apache-2.0 top level), and [anthropics/claude-quickstarts](https://github.com/anthropics/claude-quickstarts) (MIT). These were not copied: their primary artifacts are agent personas, plugins, and example apps rather than directly portable Copilot skills.
 
