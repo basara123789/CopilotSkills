@@ -1,0 +1,72 @@
+[
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/frontend-ui-engineering/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/frontend-ui-engineering/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/code-review-and-quality/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/code-review-and-quality/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/debugging-and-error-recovery/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/debugging-and-error-recovery/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/performance-optimization/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/performance-optimization/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/security-and-hardening/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/security-and-hardening/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/browser-testing-with-devtools/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/browser-testing-with-devtools/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/ci-cd-and-automation/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/ci-cd-and-automation/SKILL.md"
+  },
+  {
+    "repository": "addyosmani/agent-skills",
+    "path": "skills/documentation-and-adrs/SKILL.md",
+    "destination": "vendor/addyosmani/agent-skills/skills/documentation-and-adrs/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/python-development/skills/python-testing-patterns/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/python-development/skills/python-testing-patterns/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/python-development/skills/python-error-handling/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/python-development/skills/python-error-handling/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/developer-essentials/skills/code-review-excellence/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/developer-essentials/skills/code-review-excellence/SKILL.md"
+  },
+  {
+    "repository": "wshobson/agents",
+    "path": "plugins/frontend-mobile-development/skills/react-state-management/SKILL.md",
+    "destination": "vendor/wshobson/agents/plugins/frontend-mobile-development/skills/react-state-management/SKILL.md"
+  }
+]
