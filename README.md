@@ -1,11 +1,19 @@
 # CopilotSkills — Offline-first VS Code GitHub Copilot Agent Skills
 
-A curated, **deduplicated set of 12 active Agent Skills** for VS Code GitHub Copilot. All active `SKILL.md` files and their linked local Markdown references are stored under `.github/skills/` for local discovery.
+A curated, **deduplicated set of 13 active Agent Skills** for VS Code GitHub Copilot. All active `SKILL.md` files and their linked local Markdown references are stored under `.github/skills/` for local discovery.
+
+## GoodUI Free integration
+
+- `goodui-free` — an independently authored offline-first Copilot Skill for the free GoodUI shadcn/React catalog. The Skill is installed at `.github/skills/goodui-free/SKILL.md`.
+- `goodui/manifest.json` presently lists **zero downloaded original components**. A guarded sync tool exists at `scripts/sync_goodui_free.py`, which requires network access once and accepts only allowlisted free items.
+- Example: `python scripts/sync_goodui_free.py --name resource-timeline`; review and commit `goodui/free/` and the updated manifest afterward. Copying registry JSON does **not** install npm dependencies.
+- Paid/Pro GoodUI content is excluded. Consult GoodUI terms and component licenses before redistributing assets.
 
 ## Active skills
 
 | Skill | Core tasks | Source |
 |---|---|---|
+| `goodui-free` | GoodUI free UI reference and component integration (no original components yet vendored) | independently authored |
 | `frontend-ui-engineering` | UI components, responsive design, interaction | addyosmani |
 | `code-review-and-quality` | Code review and quality gates | addyosmani |
 | `debugging-and-error-recovery` | Root cause analysis, regression fixes | addyosmani |
@@ -25,7 +33,7 @@ A curated, **deduplicated set of 12 active Agent Skills** for VS Code GitHub Cop
 
 ## Use in VS Code
 
-Open this repository in VS Code and select GitHub Copilot **Agent** mode. It can discover the 12 skills from `.github/skills/`.
+Open this repository in VS Code and select GitHub Copilot **Agent** mode. It can discover the 13 skills from `.github/skills/`.
 
 For **another project**, copy the desired skill directory (including its `references/` directory, if any) into that project's `.github/skills/`. A separate repository is **not automatically available** to a different workspace.
 
