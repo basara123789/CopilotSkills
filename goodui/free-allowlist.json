@@ -1,0 +1,7 @@
+{
+  "resource-timeline": {
+    "status": "free-verified",
+    "evidence": "https://goodui.dev/docs/installation",
+    "note": "Official installation documentation explicitly says every free block can be installed by full URL and uses resource-timeline as its example."
+  }
+}
